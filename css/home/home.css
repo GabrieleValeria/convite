@@ -1,6 +1,7 @@
 .home{
   text-align: center;
-  padding-top: 140px;
+  padding-top:50px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,70 +45,22 @@ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 
 }
 
-.prazer{
-  padding-top: 15px;
-  padding-bottom: 5px;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 1.1rem;
-}
-
-
-
-.container-data{
-  width: 60%;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  
-}
-
-
-
 .data{
-  font-weight: bold;
-  position: relative;
-  text-align: center;
-  width: 80%;
-  display: flex;
-  font-size: 4rem !important;
-}
 
-.data span{
-  border-left: solid 2px black;
- }
-
-.data span{
-margin: 10px;
- 
- }
-
-@media(min-width:500px){
-  .data{
-  justify-content: center;
-  }
-
-
-  
-
-
+width: max-content;
+margin: 0 auto;
+color: #686F51;
+display: flex ;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.3), 0px -2px 2px -2px rgba(0, 0, 0, 0.5);
+padding-top: 2px;
+padding-bottom: 2px;
 }
 
 
-
-
-
-
-.data span{
-  font: 1.5rem "Allura", serif !important;
-  font-weight: bold !important;
+.dia{
   padding-left: 20px;
-  padding-top: 2px;
-  display: flex;
-  align-items: center;
-
+  padding-right: 20px;
 }
 
-
-@media(min-width:500px){
- 
-}
